@@ -1,6 +1,6 @@
-#course CS513 project
-#project group: movie rating
-#author: Zhe Wang
+#data mining project
+#project group: movie recommendation
+#author: wzstevens
 #item-based collaborative filtering
 
 rm(list=ls())
@@ -8,7 +8,7 @@ rm(list=ls())
 library(plyr)
 
 #Read the data set
-train<-read.csv(file="C:/Users/WangZhe/Desktop/sam.csv",header=FALSE)
+train<-read.csv(file="C:/Users/wzstevens/Desktop/sam.csv",header=FALSE)
 names(train)<-c("item","user","pref") 
 
 #Calculate the user list
